@@ -11,3 +11,4 @@ docker run --rm -it -v $pwd/files:/files ros:indigo-ros-core bash /files/setup_c
 docker run --rm -it -v $pwd/files:/files ros:kinetic-ros-core bash /files/setup_cache.sh
 docker run --rm -it -v $pwd/files:/files ros:melodic-ros-core bash /files/setup_cache.sh
 docker run --rm -it -v $pwd/files:/files ros:noetic-ros-core bash /files/setup_cache.sh
+docker run --rm -it -v $pwd/files:/files ros:foxy-ros-core bash /files/setup_cache.sh
